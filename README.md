@@ -1,4 +1,4 @@
-Shakespear Sonnet Generator 
+##Shakespear Sonnet Generator 
 
 Introduction
 This is a generative AI model trained on all of Shakespeare’s sonnets. Sonnets provided ideal training material for the model because of their uniform structure. The model 
