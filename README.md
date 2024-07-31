@@ -9,7 +9,7 @@ Stylistic Diversity: Trained on a diverse corpus of sonnets to capture a wide ra
 Saved Model: File containing the trained model is included, both as a .keras file and the legacy .h5 file. 
 
 ## LSTM Model Architecture
-The LSTM model consists of two LSTM layers, and a dense output layer to predict the next character in a sequence. The RNN type of architecture captures syntax, structure, and words because of its memory component. 
+The LSTM model consists of two Bidirectional LSTM layers, two dropout layers, and a dense output layer to predict the next characters in the line of the sonnet. 
 
 ## Dataset
 The model was trained on "Shakespeare's Sonnets” collected from Project Gutenberg. Shakespeare Sonnets were chosen because of their uniform text structure, unique stye, and availability. 
